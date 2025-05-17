@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu Task-1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo"><img src="https://prodigyinfotech.dev/assets/images/logo/logo.svg" alt=""></div>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Internship">Internship</a></li>
+            <li><a href="#FAQs">FAQ's</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Verify">Verify</a></li>
+        </ul>
+
+        <ul class="menu">
+            <li class="menu-item"><a href="#Home" class="menu-link">Home</a></li>
+            <li class="menu-item"><a href="#About" class="menu-link">About</a></li>
+            <li class="menu-item"><a href="#Internship" class="menu-link">Internship</a></li>
+            <li class="menu-item"><a href="#FAQs" class="menu-link">FAQ's</a></li>
+            <li class="menu-item"><a href="#Contact" class="menu-link">Contact</a></li>
+            <li class="menu-item"><a href="#Verify" class="menu-link">Verify</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <div class="content" id="Home">
+        <div class="heading">
+            <h1>Prodigy Infotech</h1>
+            <h2>Thankyou for providing me this opportunity</h2>
+            
+        </div>
+    </div>
+    <div class="page1" id="About">
+        <h1>About
+        </h1>
+    </div>
+    <div class="page1" id="Internship">
+        <h1>Internship
+        </h1>
+    </div>
+    <div class="page1" id="FAQs">
+        <h1>FAQ's
+        </h1>
+    </div>
+    <div class="page1" id="Contact">
+        <h1>Contact
+        </h1>
+    </div>
+    <div class="page1" id="Verify">
+        <h1>Verify
+        </h1>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
