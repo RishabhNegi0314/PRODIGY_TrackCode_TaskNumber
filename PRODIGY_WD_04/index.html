@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>   
+
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">Rishabh Negi</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li ><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <button class="fas" onclick="closemenu()">✖</button>
+                </ul>
+                <button class="fas" onclick="openmenu()"> ☰
+                    </button>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designner</p>
+                <h1> Hi, I'm <span>Rishabh</span><br>Negi From India</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-call-1">
+                    <img src="img4.avif" style="width: 350px; height:auto">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am a second-year Bachelor of Technology in Computer Science
+                      student with a keen interest in technology, innovation, and problem-solving. 
+                      My academic journey has exposed me to various aspects of computing, and 
+                     I am eager to apply my knowledge to real-world projects.
+                      
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web Application Development</li>
+                            <li><span>Data Analysis</span><br>Transforming raw data into actionable insights</li>
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025</span><br>Hackathon Project Developer- Developed assistive Smart Glasses featuring speech-to-text, object detection and language translation to enhance accessibility for visually and hearing-impaired individuals</li>
+                            <li><span>2023-Present</span><br>Freelance Data Analyst, conducted data Analysis using Python,SQL,and Excel to derive actionable insights</li>
+                            <li><span>2020-2023</span><br>Web Development Projects, designed and developed responsive websites using HTML,CSS,JavaScript</li>
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-Present</span><br>Pursuing Bachelor of Computer Application at Graphic Era University</li>
+                            <li><span>2022-2023</span><br>developed expertise in Data Analysis, focusing on insights generation and visualization</li>
+                            <li><span>2021-2022</span><br>Gained proficiency in Web Development, building responsive and interactive websites</li>
+                            
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------Services----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                
+                    <i class="fa-solid fa-file-spreadsheet"></i>
+                    <h2>Data Analysis</h2>
+                    <p> I specialize in data cleaning, Analysis, visualization and SQL-based reporting to derive meaningful insights. Proficient in Python, SQL, Power BI, and Tableau,  I worked on real-world datasets to build interactive dashboards and reports.
+                    </p>
+                    <a href ="#">Learn more</a>
+                </div>
+                <div>
+                    
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> I specialize in creating intuitive, user-centric designs that enhance digital experiences. Using wireframing, prototyping, and design tools like Figma and Adobe XD, I focus on usability, accessibility, and modern design principles to improve user engagement and satisfaction
+                    </p>
+                    <a href ="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I design responsive, visually engaging, and high-performance websites tailored to business and user needs. With expertise in HTML, CSS, JavaScript, and modern frameworks, I ensure seamless functionality, clean aesthetics, and an intuitive user experience.
+
+                    </p>
+                    <a href ="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-------------------------------portfolio------------->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="p1.jpg" style="width: 450px;" alt="profile">
+                    <div class="layer">
+                        <h3>Smart Glasses for Visually and Hearing Impaired </h3>
+                        <p><b>Discription:</b>  Developed an AI-powered smart glasses prototype with speech to text, object detection, and language translation to assist visually and hearing-impared individuals</p>
+                        <a href="#">clickMe</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="p2.jpg"style="width: 450px;" alt="profile">
+                    <div class="layer">
+                        <h3> Stock Market Price Predicition </h3>
+                        <p><b>Description:</b>  Built a machine learning model to predict stock prices based on historical data.
+                        </p>
+                        <a href="#">clickMe</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="p3.jpg"style="width: 450px;" alt="profile">
+                    <div class="layer">
+                        <h3>Social Media Sentiment Analysis </h3>
+                        <p><b>Description:</b>  collected Twitter data and analyzed sentiment to understand public openion on a trending topic</p>
+                        <a href="#">clickMe</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-------------------------------contact------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>rishinegi718@gmail.com</p>
+                    <p>7217497399</p>
+                    <div class="social-icons">
+                   <img src="1.svg" style="width:50px;" alt="icon">
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="#" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2025 RISHABH. All Rights Reserved. </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+    
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbydkSaJktcObaUjn5_TA91rU40Ii-2XgJfOHlKVbGQGUh7Dys7Y5q19jh3qHUlRzkw0/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Thank-You for reaching out! Your message has been sent successfully."
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
